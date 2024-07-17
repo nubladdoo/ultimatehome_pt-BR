@@ -1,0 +1,55 @@
+prefix: '&6&l[SERVIDOR]'
+command:
+  noPermission: '&cVocê não tem permissão!'
+  reloaded: '&aConfiguração recarregada!'
+  sethome:
+    usage: '&fUso inválido! Use &3/sethome <name>'
+    invalidSender: '&cVocê precisa ser um jogador para fazer isso.'
+    createdHome: '&fDefina uma home para sua localização atual.'
+    createdNamedHome: '&fCriou uma casa chamada &3%arg1&f em sua localização atual.'
+    noMoreHomes: '&fVocê não pode mais definir homes. Use /delhome <name> para remover uma
+      home. (Limite: &3%arg1&f)'
+    nameAlreadyExists: '&fVocê já tem uma home com o nome &3%arg1&f! Tente com um nome diferente.'
+    nonAlphanumeric: '&fO nome da sua casa deve ser alfanumérico; tente novamente com o nome
+      &3%arg2 &f ou escolha um diferente'
+    nonAlphanumericNoSuggestion: '&fO nome da sua casa deve ser alfanumérico; por favor escolha
+      um nome diferente.'
+    unsafeLocation: '&cVocê não pode instalar uma casa aqui porque não é seguro!'
+  home:
+    usage: '&fUso inválido! Use &3/home <name>'
+    invalidSender: '&cVocê tem que ser um jogador para se teletransportar para uma casa.'
+    invalidHome: '&fVocê não tem uma casa chamada &3%arg1&f. Digite &3/homes&f para ver
+      suas casas.'
+    teleportedHome: '&fTeletransportado para casa. (&bx&3%arg3&f, &by&3%arg4&f, &bz&3%arg5&f,
+      &fin &3%arg2&f)'
+    teleportedHomeNamed: '&fTeletransportado para casa &3%arg1&f. (&bx&3%arg3&f, &by&3%arg4&f,
+      &bz&3%arg5&f, &fin &3%arg2&f)'
+    teleportedOther: '&fTeletransportado para a casa de &3%arg6&f &3%arg1&f. (&bx&3%arg3&f,
+      &by&3%arg4&f, &bz&3%arg5&f, &fin &3%arg2&f)'
+    invalidHomeOther: '&3%arg2&f não tem uma casa chamada &3%arg1&f. Digite &3/homes
+      %arg2&f para ver suas casas.'
+    unknownPlayer: '&fPlayer não encontrado! &3%arg1&f.'
+    warmup: '&fTeleportando em &3%arg1 &fsegundos. Permanecer imóvel...'
+    teleportationCancelled: '&cVocê se moveu! Teletransporte cancelado.'
+    unsafeTeleport: '&cAviso: o local de destino não é seguro! Para confirmar você
+      deseja se teletransportar, execute rapidamente o comando novamente.'
+  homes:
+    usage: '&fUso inválido! Use &3/homes <player>'
+    invalidSender: '&cVocê tem que ser um jogador para ver as homes.'
+    unknownPlayer: '&fPlayer não encontrado. &3%arg1&f.'
+    homes: '&fHomes &8(&f%arg1&8) &f- %arg2'
+    homesOther: '&3%arg1&f''s homes &8(&f%arg2&8)&f: %arg3'
+    homeListSeparator: '&f, '
+    homeListColor: '&3'
+    noHomes: '&fVocê não tem nenhuma home definida! Defina um com &3/sethome <name>'
+    noHomesOther: '&3%arg1&f não tem homes definidas.'
+  delhome:
+    usage: '&fUso inválido! Use &3/delhome [player] <name>'
+    invalidHome: '&fVocê não tem uma casa chamada &3%arg1&f. Digite &3/homes&f para ver
+      suas casas.'
+    invalidHomeOther: '&3%arg2&f não tem uma casa chamada &3%arg1&f. Tipo &3/homes
+      %arg2&f para ver suas casas.'
+    deleted: '&fSua home &3%arg1 &ffoi deletada.'
+    deletedOther: '&3%arg2&f''s home &3%arg1 &fdeletada.'
+    unknownPlayer: '&fJogador desconhecido &3%arg1&f.'
+    invalidSender: '&cVocê precisa ser um jogador para excluir uma casa.'
